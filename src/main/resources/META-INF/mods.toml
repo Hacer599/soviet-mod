@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/soviet/issues"
+
+[[mods]]
+modId="soviet"
+version="1.0"
+displayName="Soviet"
+description="Редкие визуальные глюки и глаза в небе"
+authors="Soviet Mod Team"
+
+[[dependencies.soviet]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.soviet]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
